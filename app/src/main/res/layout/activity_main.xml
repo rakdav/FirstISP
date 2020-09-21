@@ -58,12 +58,16 @@
             android:layout_weight="1"
             android:layout_marginBottom="5dp"/>
     </LinearLayout>
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
-        android:id="@+id/result"
-        android:textSize="16pt"/>
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:textSize="16pt"/>
+    </ScrollView>
 
 
 </LinearLayout>

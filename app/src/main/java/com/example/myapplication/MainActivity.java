@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,7 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 int a=Integer.parseInt(first.getText().toString());
                 int b=Integer.parseInt(second.getText().toString());
                 int s=a+b;
-                result.setText(""+a+"+"+b+"="+s);
+                String st="";
+                for(int i=1;i<1000;i++)
+                    st+=""+a+"+"+b+"="+s;
+                result.setText(st);
                 Toast.makeText(getApplicationContext(),""+a+"+"+b+"="+s,Toast.LENGTH_LONG).show();
             }
         });
