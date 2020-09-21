@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="first">Введите первое число</string>
+    <string name="second">Введите второе число</string>
+    <string name="add">+</string>
+    <string name="reset">Сброс</string>
+</resources>
